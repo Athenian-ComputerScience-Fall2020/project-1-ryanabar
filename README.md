@@ -1,31 +1,36 @@
-# Project 1
+# Yogurt Shack
 
-Explain what your project does here.
+## Goal
+Take order of a customer at a yogurt store for their yogurt and drink choice.
+#
+### Criteria
 
-When you are done, delete everything else on this page. It is only here for reference.
+Your program should include a minimum of:
 
-Note the following Markdown formatting:
+* 1 list (3 or more elements)
+* manipulation of the list in some way
+* 1 while loop
+* 1 conditional (if-elif-else)
+* 1 for loop
+* 1 function that does something other than just print
+* function should be called at least 2x
+* 2 types of variables
+* Try/except
+* Comments - use them!
+* Collaborators (as usual)
 
-# Header 2
-## Header 2
-### Header 4
-#### Header 4
+### Pseduocode
+You also have to draw up some sort of outline for your program. Whether you 
+choose to draw a diagram, or would like to have an bullet-point list, an outline 
+is a great way to track what you are doing in each step of your program.
 
-*Single asterisks make italics*
 
-**Double asterisks make text bold**
+### Suggestions
+*   Use two functions
+*   Make sure your program is fluid, as though it's an actual human talking
+*   Comments are a great way to keep track of your code.
+    
 
-* Asterisk + space before text gives bulleted list
-  * Tabbed asterisks give indented lists
-
-`You can make code blocks in a line like this...`
-
-```
-...and over 
-multiple
-lines
-like this
-```
-
-Use the preview tab at the top to see how it looks. You can edit directly in GitHub or in Gitpod. Be careful not to edit in GitHub while Gitpod is open or you may have version conflicts.
+### Questions?
+Feel free to reach out to me with any questions you may have on how to implement certain parts into your program
 
