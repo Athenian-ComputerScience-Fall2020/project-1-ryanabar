@@ -1,3 +1,4 @@
+
 def yogurtshack():
     
     print("Welcome to Yogurt Shack! Please type your order below.") #Introducing the store and asking for order
@@ -16,23 +17,24 @@ def yogurtshack():
         print("Hello")
         x += 1
 
-    drink = input("What drink would you like with that? You can either say tea, water, coffee, or soda.")
-
-    if drink == "tea":
-        print("Our tea is world-famous!")
-    elif drink == "water":
-        print("Sounds good!")
-    elif drink == "strawberry":
-        print("I could go for some coffee now.")
-    elif drink == soda
-        print("Lucky you! This is our last one!")
-    else:
-        print("Sorry, we don't have that drink.")
+    try:
+        drink = input("What drink would you like with that? You can either say tea, water, coffee, or soda.")
+        if drink == "tea":
+            print("Our tea is world-famous!")
+        elif drink == "water":
+            print("Sounds good!")
+        elif drink == "strawberry":
+            print("I could go for some coffee now.")
+        elif drink == soda
+            print("Lucky you! This is our last one!")
+        else:
+            print("Sorry, we don't have that drink.")
+    except:
+        print("Sorry, that is not a valid entry.")
 
 
     for i in range(1):
         print("Have a great day and we hope to see you soon!")
     
-yogurtshack()
-yogurtshack()
 
+yogurtshack()
