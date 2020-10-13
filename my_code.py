@@ -1,4 +1,6 @@
-def rerun():
+#Collaborators: None
+
+def rerun(): #Function is here to rerun the program for total of two times
     y = 0
     while y<2:
         yogurtshack()
@@ -14,7 +16,7 @@ def yogurtshack():
     print("\n")
     lst = [flavor, topping1, topping2]
 
-    print("Your order is" + str(lst))
+    print("Your order is" + str(lst)) #Telling the customer what their order is
 
 
     x = 0
@@ -24,7 +26,7 @@ def yogurtshack():
         x += 1
 
     try:
-        drink = input("What drink would you like with that? You can either say tea, water, coffee, or soda. ")
+        drink = input("What drink would you like with that? You can either say tea, water, coffee, or soda. ") #Asking the customer what drink they would like.
         if drink == "tea":
             print("Our tea is world-famous!")
         if drink == "Tea":
@@ -47,7 +49,7 @@ def yogurtshack():
 
     for i in range(1):
         print("\n")
-        print("We hope you enjoy your meal. Have a great day and we hope to see you soon!")
+        print("We hope you enjoy your meal. Have a great day and we hope to see you soon!") #Thank you and goodbye to customer
         print("\n")
     
 
